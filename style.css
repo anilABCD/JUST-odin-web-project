@@ -9,6 +9,8 @@
         background-color: rgb(14,14,14);
     }
 
+
+
     .header-container {
         padding: 0 230px;
         background-color: #1f2937;
@@ -104,6 +106,22 @@
         border-radius: 5px;
         text-decoration: none;
         border: none;
+
+        font-size: large;
+    }
+
+    .small {
+        padding: 10px 25px;
+        width: 129px;
+        font-size: 16px;
+        font-weight: 550;
+    }
+
+    .big{
+        padding: 5px 30px;
+        font-size: large;
+        border: 2px solid white;
+        
     }
 
     .primary:visited {
@@ -137,7 +155,7 @@
     }
 
     .middle-section-container{
-        padding: 0 330px;
+        padding: 0 250px;
 
         background-color: white;
     }
@@ -167,7 +185,7 @@
     }
 
     .middle-section-info-container .items .recipe-info .recipe-img div {
-        height: 150px; width :150px;
+        height: 180px; width :180px;
 
         /* border:4px solid rgb(59,130,246); */
         border-radius: 15px;
@@ -190,6 +208,8 @@
         padding-top: 5px;
         padding-left: 2px;
         text-align: justify;
+        font-size: small;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
 
     .middle-section-info-container .items .recipe-info .recipe-desc div {
@@ -234,8 +254,107 @@
         color:white;
     }
 
+    .quote-section {
+        background-color: #E5E7EB;
 
-    .end-secion{
+        min-height: 430px;
+        color: #1f2937;
+        font-size: 36px; 
+        font-style: italic;  
+        font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:200;
+
+        padding:0px 10px;
+
+        display: flex;
+       
+        margin:0 auto;
+
+        flex-direction: column;
+       
+        justify-content: center;
+    }
+    
+    .quote{
+       flex: 1;
+       display: flex;
+    
+    }
+
+    .quote-section .quote-desc div{
+        margin:auto ;
+        max-width: 800px;
+  
+    }
+
+    .quote-section .quote-desc .author{
+        text-align: right;
+        font-weight:450;
+        font-style: normal;
+        font-size:x-large;
+        padding-right: 3rem;
+    }
+         
+    .call-action-section {
+        background: white;
+        min-height: 350px;
+     
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .call-action-section .call-action > * ,  
+    .call-action-section .register-info > *{
+        padding-left: 55px;
+        padding-top: 15px;
+    }
+
+    .call-action-section .sign-up {
+        padding-right: 55px;
+    }
+
+    .call-action-section {
+        display: flex;
+    }
+
+
+    .call-action{
+        display: flex;
+    }
+
+  
+    .call-action-section .call-action {
+
+        width: 59.4%;
+        height: 150px;
+        background: #3882f6;
+      
+       
+        border-radius: 10px;
+    }
+
+    .call-action-section .register-info{
+        flex :2;
+       
+    }
+
+    .call-action-section .register-info h2 {
+        margin-bottom: 0px;
+    }
+
+    .call-action .sign-up 
+    {
+        display: flex;
+       flex: 1;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .footer-section{
         background-color: #1f2937;
     }
     
@@ -257,26 +376,26 @@
 
 @media(max-width:1700px) { /*  1700 */
 .middle-section-container{
-     padding: 0 320px;
+     padding: 0 240px;
 }
 
 }
 
 @media(max-width:1500px) { /*  1500 */
 .middle-section-container{
-     padding: 0 220px;
+     padding: 0 120px;
 }
 }
 
 @media(max-width:1300px) { /*  1320 */
 .middle-section-container{
-     padding: 0 120px;
+     padding: 0 20px;
 }
 }
 
 @media(max-width:1100px) { /*  1320 */
 .middle-section-container{
-     padding: 0 20px;
+     padding: 0px;
 }
 }
 
