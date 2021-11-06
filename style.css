@@ -1,5 +1,22 @@
 
+/* ************* Table Of Contents ********
 
+    1. Root
+    2. Components
+    3. Header Sections ( Logo and links section )
+    4. Website Header Section ( Banner text and image )
+    5. Middle Section ( Food items section )
+    6. Quote Section
+    7. Call action Section ( Registration section )
+    8. Footer Section 
+    9. Responsive Section ( media queries )
+
+ ***************************************** */
+    
+
+
+     /*   1. Root    */
+    
     body {
         
         margin: 0;
@@ -7,135 +24,14 @@
     }
 
     .root {
-        /* padding: 0 10%; */
- 
+
         margin: 0 auto;
         max-width: 1430px;
         
     }
 
-    .header-container {
 
-        
-        background-color: #1f2937;
-
-        
-    }
-
-    .header {
-        background-color: #1f2937;
-        color: white;
-
-        display: flex;
-        flex-wrap: wrap;
- margin: 0 auto;
- max-width: 1000px;
-    }
-
-    .header-logo {
-        flex: 1;
-    }
-
-    .header-logo img{
-        border-radius: 10px;
-    }
-
-    .row {
-        display: flex;
-    }
-
-    .header-links {
-        padding-top: 30px;
-        font-size: 1.25rem;
-
-        display: flex;
-        flex: 1;
-        flex-wrap: wrap;
-    }
-
-    .header-link {
-        padding: 0 10px;
-        color: #e5e7eb;
-        font-size: 1.125rem;
-        min-width: 50px;
-        flex-wrap: wrap;
-    }
-
-    .h-link {
-        color: white;
-        white-space: nowrap;
-        text-decoration: none;
-    }
-
-    .website-header-info {
-        margin-top: 80px;
-        margin-bottom: 80px;
-
-        width: 100%;
-
-         margin: 0 auto;
- max-width: 1000px;
-    }
-
-    .info {
-        padding: 10px;
-
-        flex: 1;
-    }
-
-    .col {
-        flex: 1;
-    }
-
-    /* .col-no-size { // no-size meaning : flex is not defined . 
-         flex :1; 
-    } */
-
-    .info-hero-text {
-        font-size: 3rem;
-        font-weight: 900;
-        color: #f9faf8;
-        margin: 0;
-        
-        font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif;
-    }
-
-
-    .info-secondar-text {
-        font-size: 1.125rem;
-        color: #e5e7eb;
-        font-weight: normal;
-        
-    }
-
-    .info-container{
-        width: 100%;
-
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .info-container .info{
-    
-       min-width: 350px;
-    }
-
-    .img-container{
-        height: 160px;
-        width: 100%;
-       
-        max-width: 474px;
-    }
-
-    .recipes-image {
-        width: 100%;
-        height: 100%;
-
-        object-fit:cover;
-        border-radius: 10px;
-
-
-    }
+    /* ************************ 2. Components ***************** */
 
     .button {
 
@@ -186,6 +82,134 @@
     .secondary:hover{
         color: rgb(211, 207, 207);
     }
+    
+    .col {
+        flex: 1;
+    }
+
+
+    /* ************************ 3. Header Section ***************** */
+
+    .header-container {
+
+        
+        background-color: #1f2937;
+
+        
+    }
+
+    .header {
+        background-color: #1f2937;
+        color: white;
+
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .header-logo {
+        flex: 1;
+    }
+
+    .header-logo img{
+        border-radius: 10px;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .header-links {
+        padding-top: 30px;
+        font-size: 1.25rem;
+
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+
+    .header-link {
+        padding: 0 10px;
+        color: #e5e7eb;
+        font-size: 1.125rem;
+        min-width: 50px;
+        flex-wrap: wrap;
+    }
+
+    .h-link {
+        color: white;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+       /* ************************ 4. Website Header Section ***************** */
+
+    .website-header-info {
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+        width: 100%;
+
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .info {
+        padding: 10px;
+
+        flex: 1;
+    }
+
+  
+    .info-hero-text {
+        font-size: 3rem;
+        font-weight: 900;
+        color: #f9faf8;
+        margin: 0;
+        
+        font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif;
+    }
+
+
+    .info-secondar-text {
+        font-size: 1.125rem;
+        color: #e5e7eb;
+        font-weight: normal;
+        
+    }
+
+    .info-container{
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info-container .info{
+    
+       min-width: 350px;
+    }
+
+    .img-container{
+        height: 160px;
+        width: 100%;
+       
+        max-width: 474px;
+    }
+
+    .recipes-image {
+        width: 100%;
+        height: 100%;
+
+        object-fit:cover;
+        border-radius: 10px;
+
+
+    }
+
+/* ************************ 5. Middle Section ***************** */
+
 
     .middle{
         padding-bottom: 80px;
@@ -199,8 +223,8 @@
         width: 100%;
         background-color: white;
 
-               margin: 0 auto;
- max-width: 1000px;
+        margin: 0 auto;
+        max-width: 1000px;
     }
 
      .middle-section-info-container {
@@ -267,6 +291,8 @@
          width :150px;
     }
 
+    /* ************************ Testing with border Section ***************** */
+
     .x{
         border: 1px solid black;
     }
@@ -280,6 +306,7 @@
     } */
 
 
+    /* ************************ 6. Quote Section ***************** */
   
     .quote-section {
         background-color: #E5E7EB;
@@ -321,6 +348,9 @@
         font-size :1.55rem;;
         padding-right: 3rem;
     }
+
+
+    /* ************************ 7. Call action Section ***************** */
          
     .call-action-section {
         background: white;
@@ -380,11 +410,14 @@
     .call-action .sign-up 
     {
         display: flex;
-       flex: 1;
+        flex: 1;
         align-items: center;
         justify-content: center;
         min-width: 250px;
     }
+
+
+    /* ************************ 8. Footer Section ***************** */
 
 
     .footer-section{
@@ -393,8 +426,8 @@
     }
 
     .creator-copyright{
-              margin: 0 auto;
- max-width: 1000px;
+        margin: 0 auto;
+        max-width: 1000px;
     }
 
       .original-photo-creators * {
@@ -504,6 +537,9 @@ max-width: 100%;
 
 }
  */
+
+
+ /* ************************ 9. Responsive Section ***************** */
 
 @media(max-width:1040px) { 
 
