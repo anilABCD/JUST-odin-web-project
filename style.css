@@ -214,12 +214,11 @@
     .middle{
         padding-bottom: 80px;
         background-color: white;
-
-  
     }
 
     .middle-section-container{
-        padding: 0 0px;
+        padding: 0 auto;
+
         width: 100%;
         background-color: white;
 
@@ -243,6 +242,9 @@
         justify-content:space-evenly;
        
         flex-wrap: wrap;
+
+        align-items: center;
+        justify-content: center;
     }
 
     .middle-section-info-container .items .recipe-info {
