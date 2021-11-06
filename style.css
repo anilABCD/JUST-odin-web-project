@@ -1,24 +1,35 @@
 
 
     body {
+        
         margin: 0;
-    }
-
-    .root {
-        padding: 0 15%;
         background-color: rgb(14,14,14);
     }
 
+    .root {
+        /* padding: 0 10%; */
+ 
+        margin: 0 auto;
+        max-width: 1430px;
+        
+    }
+
     .header-container {
-        padding: 0 15%;
+
+        
         background-color: #1f2937;
+
+        
     }
 
     .header {
         background-color: #1f2937;
         color: white;
 
+        display: flex;
         flex-wrap: wrap;
+ margin: 0 auto;
+ max-width: 1000px;
     }
 
     .header-logo {
@@ -36,6 +47,9 @@
     .header-links {
         padding-top: 30px;
         font-size: 1.25rem;
+
+        display: flex;
+        flex: 1;
         flex-wrap: wrap;
     }
 
@@ -58,10 +72,15 @@
         margin-bottom: 80px;
 
         width: 100%;
+
+         margin: 0 auto;
+ max-width: 1000px;
     }
 
     .info {
         padding: 10px;
+
+        flex: 1;
     }
 
     .col {
@@ -91,6 +110,8 @@
 
     .info-container{
         width: 100%;
+
+        display: flex;
         flex-wrap: wrap;
     }
 
@@ -169,6 +190,8 @@
     .middle{
         padding-bottom: 80px;
         background-color: white;
+
+  
     }
 
     .middle-section-container{
@@ -176,6 +199,8 @@
         width: 100%;
         background-color: white;
 
+               margin: 0 auto;
+ max-width: 1000px;
     }
 
      .middle-section-info-container {
@@ -255,31 +280,7 @@
     } */
 
 
-    .original-photo-creators * {
-        font-size: 0.8rem;
-       
-    }
-
-    .original-photo-creators-heading{
-        color: white;
-
-        font-size: 0.9rem;
-        
-        padding: 10px;
-    }
-
-    .original-photo-creators , .original-photo-creators *{
-        padding-right: 10px;
-        padding-left: 10px;
-        display: grid;
-
-        grid-template-columns: 1fr 1fr ;
-
-        gap: 5px;
-
-        color:white;
-    }
-
+  
     .quote-section {
         background-color: #E5E7EB;
 
@@ -388,7 +389,41 @@
 
     .footer-section{
         background-color: #1f2937;
+   
     }
+
+    .creator-copyright{
+              margin: 0 auto;
+ max-width: 1000px;
+    }
+
+      .original-photo-creators * {
+        font-size: 0.8rem;
+       
+    }
+
+    .original-photo-creators-heading{
+        color: white;
+
+        font-size: 0.9rem;
+        
+        padding: 10px;
+    }
+
+    .original-photo-creators , .original-photo-creators *{
+        padding-right: 10px;
+        padding-left: 10px;
+        display: flex;
+
+        flex-wrap: wrap;
+
+        grid-template-columns: 1fr 1fr ;
+
+        gap: 5px;
+
+        color:white;
+    }
+
     
     .copyright{
         color: white;
@@ -470,14 +505,6 @@ max-width: 100%;
 }
  */
 
-@media(max-width:1800px) { 
-.root{
-    padding:0 clamp(10px, 25vw + 1rem, 15%);
-}
-
-
-}
-
 @media(max-width:1040px) { 
 
    .header-container{
@@ -491,10 +518,19 @@ max-width: 100%;
         padding:0 5px;
     }
 
+      .root {
+        /* padding: 0 10%; */
+        margin: 0 ;
+        max-width: 100%;
+        
+    }
+
+
 }
 
 @media(max-width:400px) { 
 
+   
     .info-container .info{
         min-width: 100%;
     }
@@ -515,16 +551,31 @@ max-width: 100%;
 
 @media(max-width:250px) { 
 
+     body {
+       min-width: 250px;  
+     }
+
+     .info-secondar-text{
+        word-break: break-all;  
+     }
+
+     .info-hero-text {
+
+        word-break: break-all;
+
+     }
+
    .middle-section-info-container .items .recipe-info .recipe-img div {
         height : 100%; 
         width :100%;
+
+        word-break: break-all;
     }
 
    .middle-section-info-container .items .recipe-info {
    
         margin-top: 10px;
-        min-width: 
-        auto;
+        min-width: 100%;
     }
 
     .quote-section .quote-desc .author {
