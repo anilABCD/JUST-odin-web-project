@@ -110,7 +110,7 @@
 
     .header-logo {
         flex: 1;
-        padding: 5px;
+        padding-top: 5px;
     }
 
     .header-logo img{
@@ -554,27 +554,7 @@ max-width: 100%;
 
 }
 
-@media(max-width:780px){
-
-       .info-container .info-one{
-
-           order: 2;
-       }
-
-        .info-container .info-two{
-            order: 1;
-        }
-
-      .img-container{
-         max-width: 800px;
-     }
-   
-
-}
-
-@media(max-width:730px) { 
-
-  
+@media(max-width:769px) { 
     .root{
         padding:0 5px;
     }
@@ -586,12 +566,24 @@ max-width: 100%;
         
     }
 
+    .info-container .info-one{
+        order:2;
+    }
+
+    .info-container .info-two{
+        order: 1;
+    }
+
+    .img-container{
+       max-width: 99%;
+    }
+
 
 }
 
 @media(max-width:400px) { 
 
-     
+   
     .info-container .info{
         min-width: 100%;
     }
