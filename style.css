@@ -110,6 +110,7 @@
 
     .header-logo {
         flex: 1;
+        padding: 5px;
     }
 
     .header-logo img{
